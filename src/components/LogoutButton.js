@@ -8,7 +8,7 @@ const LogoutButton = () => {
     const handleLogout = async () => {
         try {
             await logout();
-            localStorage.removeItem('token'); // Remove token from localStorage
+            localStorage.removeItem('token'); 
             navigate('/login');
         } catch (error) {
             console.error('Logout failed', error);
