@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://weatherbackend-etik.onrender.com/';
+const API_URL = 'https://weatherbackend-etik.onrender.com/api/';
 
 export const register = (username, password) => {
     console.log('Registering user:', username);
